@@ -30,7 +30,7 @@ COPY --from=builder /app/main .
 # 设置环境变量
 ENV PORT=8080
 ENV ENABLE_PROXY=true
-ENV PROXY_URL="http://23.95.130.241:40000"
+ENV PROXY_URL=http://rkszqzzw:qwpw79nr8qma@103.216.199.133:6430
 ENV PROXY_TIMEOUT_MS=5000
 ENV LOG_LEVEL=info
 
